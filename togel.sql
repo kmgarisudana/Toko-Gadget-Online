@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 27, 2022 at 03:01 PM
+-- Generation Time: Apr 27, 2022 at 03:30 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.5
 
@@ -43,11 +43,8 @@ CREATE TABLE `tb_user` (
 --
 
 INSERT INTO `tb_user` (`id_user`, `userid`, `password`, `aktif`, `nama`, `alamat`, `email`, `hp`) VALUES
-(33, 'dodo', '6f79c77fc078abbf894d619eed36e8c1', 'Y', 'dadadada', 'dadadadad', 'adadadada', '123131341'),
-(32, 'ari121', '6f79c77fc078abbf894d619eed36e8c1', 'Y', 'arisudana', 'adadad', 'adadad', '12121'),
-(31, 'ari', '6f79c77fc078abbf894d619eed36e8c1', 'Y', 'arisudana', 'alamat111', 'arisudana123.@gmail.com', '123'),
-(30, '', '6f79c77fc078abbf894d619eed36e8c1', 'Y', '', '', '', ''),
-(34, 'cocococ', '6f79c77fc078abbf894d619eed36e8c1', 'Y', 'cacacaca', 'asasas', 'asdadada', '13144134');
+(1, 'ari', '6f79c77fc078abbf894d619eed36e8c1', 'Y', 'arisudana', 'alamat111', 'arisudana123.@gmail.com', '1212'),
+(2, 'ari121', '6f79c77fc078abbf894d619eed36e8c1', 'Y', 'aassdffs', 'dada', 'adadadada', '31313');
 
 --
 -- Indexes for dumped tables
@@ -67,7 +64,7 @@ ALTER TABLE `tb_user`
 -- AUTO_INCREMENT for table `tb_user`
 --
 ALTER TABLE `tb_user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
