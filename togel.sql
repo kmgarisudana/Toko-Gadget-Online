@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 27, 2022 at 03:30 PM
+-- Generation Time: Apr 27, 2022 at 03:47 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.5
 
@@ -31,7 +31,6 @@ CREATE TABLE `tb_user` (
   `id_user` int(11) NOT NULL,
   `userid` varchar(50) NOT NULL,
   `password` varchar(50) NOT NULL,
-  `aktif` enum('Y','N') NOT NULL DEFAULT 'Y',
   `nama` varchar(50) NOT NULL,
   `alamat` varchar(100) NOT NULL,
   `email` varchar(30) NOT NULL,
@@ -42,9 +41,9 @@ CREATE TABLE `tb_user` (
 -- Dumping data for table `tb_user`
 --
 
-INSERT INTO `tb_user` (`id_user`, `userid`, `password`, `aktif`, `nama`, `alamat`, `email`, `hp`) VALUES
-(1, 'ari', '6f79c77fc078abbf894d619eed36e8c1', 'Y', 'arisudana', 'alamat111', 'arisudana123.@gmail.com', '1212'),
-(2, 'ari121', '6f79c77fc078abbf894d619eed36e8c1', 'Y', 'aassdffs', 'dada', 'adadadada', '31313');
+INSERT INTO `tb_user` (`id_user`, `userid`, `password`, `nama`, `alamat`, `email`, `hp`) VALUES
+(1, 'ari', '6f79c77fc078abbf894d619eed36e8c1', 'arisudana', 'alamat111', 'arisudana123.@gmail.com', '121212'),
+(2, 'addfadfaf', '6f79c77fc078abbf894d619eed36e8c1', 'afafaf', 'fafaf', 'afafa', '13413');
 
 --
 -- Indexes for dumped tables
